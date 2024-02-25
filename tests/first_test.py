@@ -7,6 +7,6 @@ class TestCalc:
         self.calc = Calculator
 
     def test_adding_success(self):
-        assert self.calc.adding(self,1, 1) == 2
+        assert self.calc.adding(self,2, 1) == 3
 
 
